@@ -27,7 +27,6 @@ footer .app {
   width: 140px;
   margin: 10px;
   
-  
 }
 
 footer .copy {
@@ -78,4 +77,9 @@ footer .redes img {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+}
+@media(max-width:991px){
+  footer{
+      padding: 16px 68px;
+  }
 }
