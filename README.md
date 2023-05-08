@@ -1,59 +1,70 @@
-# PROYECTO-REACT
+# Getting Started with Create React App
 
-Desarrollar una aplicación con React
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-    Javascript
-    React
-_____________________________________________________________________________________________________________________________________________________________________    
+## Available Scripts
 
-Marcos de competencias
+In the project directory, you can run:
 
-Desarrollador web y web móvil    
-_____________________________________________________________________________________________________________________________________________________________________
+### `npm start`
 
-Contexto del proyecto
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-La agencia de publicidad Ogilvy está probando a diferentes grupos de personas para seleccionar un grupo de trabajo que forme parte de su plantilla. Ogilvy presenta unos requisitos. La agencia quiere probar hasta dónde son capaces de llegar los grupos preseleccionados.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-​
+### `npm test`
 
-Se DEBE hacer una aplicación con React en entorno node
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Se DEBE utilizar un librería de diseño
+### `npm run build`
 
-Se DEBE de cargar datos de un JSON y que los pinte (Puede ser una JSON en local)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Se DEBE: La app tienen que utilizar una API pública (Ejemplos: Google Maps, el horario o el tiempo, etc.)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-EXTRA: Utilizar un sistema de test (Ejemplo Jest, Cypress, etc.) para validar la funcionalidad básica
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-EXTRA: Queremos evitar SPAM en los formularios, necesitamos una prueba de Turin para diferenciar que es una máquina y que no lo es. ¿Entrenaremos a una inteligencia artificial?
+### `npm run eject`
 
-​
-_________________________________________________________________________________________________________________________________________________________________________
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Modalidades pedagógicas
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-''Se valorará''
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-El estado del cumplimiento de los objetivos por parte del grupo y si aportaron algo más como extra en alguno de ellos
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-La presentación de los mismos al resto de equipos
+## Learn More
 
-Cómo justificamos que se han conseguido los objetivos (Herramientas técnicas que validen el trabajo realizado)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-La organización del trabajo y del equipo siguiendo las metodologías ágiles
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-La reflexión y los avances en cómo se ha enfrentado el grupo con los errores o problemas encontrados
+### Code Splitting
 
-La reflexión sobre como aprenden y cómo trabajan los miembros del grupo
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-''El nivel de competencias logrado en la realización del los proyectos'':
+### Analyzing the Bundle Size
 
-_______________________________________________________________________________________________________________________________________________________________________
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Entregables
+### Making a Progressive Web App
 
-Una presentación final de las conclusiones de no más de 20 minutos por cada grupo. Enfocado en explicar lo que han aprendido. Subida a Simplon el mismo día de la presentación.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
