@@ -14,7 +14,7 @@ const Video = () => {
             <h1>Explora</h1>
             <p>Descubre los misterios del universo</p>
             <div>
-            <Link to='/weather' className='btn'>Weather</Link>
+            <Link to='/planets' className='btn'>Planets</Link>
             <Link to='/contact' className='btn btn-light'>Contact</Link>
             </div>
         </div>
