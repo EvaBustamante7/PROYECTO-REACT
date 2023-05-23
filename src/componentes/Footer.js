@@ -23,10 +23,7 @@ const Footer = () => {
                 </div>
                 <div className='right'>
                     <h4>About the company</h4>
-                    <p>"Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam"</p>
+                    <p>"Introducing Climatium, your go-to app for weather updates and planetary insights. Stay informed about Earth's weather and explore the mysteries of other celestial bodies."</p>
                     <div className='social'>
                         <FaFacebook size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
                         <FaTwitter size={30} style={{ color: '#ffffff', marginRight: '1rem' }} />
