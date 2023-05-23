@@ -60,6 +60,13 @@ h1 {
     transform: translateZ(50px);
 }
 
+@media screen and (max-width:940px) {
+    #planetas-container {
+        display: grid;
+        grid-template-columns: 1 fr 1fr;
+    }
+}
+
 @media screen and (max-width:640px) {
     #planetas-container {
         display: grid;
