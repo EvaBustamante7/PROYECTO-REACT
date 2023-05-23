@@ -1,5 +1,5 @@
 import React, {useRef} from 'react'
-import './Form.css
+import './Form.css'
 import ReCAPTCHA from "react-google-recaptcha";
 
 const Form = () => {
