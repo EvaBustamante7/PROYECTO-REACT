@@ -10,7 +10,7 @@ const Contact = () => {
         <Navbar />
         <BgImage 
         heading='CONTACT'
-        text='Habla con nosotros' />
+        text='We are here to help' />
         <Form />
         <Footer />
     </div>

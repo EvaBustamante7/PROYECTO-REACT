@@ -6,7 +6,7 @@ import WeatherApi from '../componentes/WeatherApi'
 const Weather = () => {
   return (
     <div>
-        
+        <Navbar />
         <WeatherApi />
         <Footer />
     </div>
