@@ -14,16 +14,15 @@ const Form = () => {
     return (
 
     <div className='form'>
-      <form onSubmit={Submit}>
+      <form>
         <label>Name</label>
         <input type='text'></input>
         <label>Email</label>
         <input type='email'></input>
         <label>Title</label>
         <input type='text'></input>
-
-        <label>Mensaje</label>
-        <textarea rows='6' placeholder='Escribe aquí tu mensaje'/>
+        <label>Message</label>
+        <textarea rows='6' placeholder='Please write your message'/>
         <div className="recaptcha">
           <ReCAPTCHA
             ref={captcha}
@@ -31,7 +30,7 @@ const Form = () => {
             onChange={onChange}
           />
         </div>
-        <button className='btn'>Enviar</button>
+        <button className='btn'>Submit</button>
 
       </form>
 
