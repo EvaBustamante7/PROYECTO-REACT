@@ -11,8 +11,8 @@ const Video = () => {
             <source src={spaceVideo} type='video/mp4'></source>
         </video>
         <div className='content'>
-            <h1>Explora</h1>
-            <p>Descubre los misterios del universo</p>
+            <h1>Explore</h1>
+            <p>Discover the mysteries of the universe</p>
             <div>
             <Link to='/planets' className='btn'>Planets</Link>
             <Link to='/contact' className='btn btn-light'>Contact</Link>
