@@ -1,12 +1,18 @@
-import React from 'react'
-import './Form.css'
-import ReCAPTCHA from 'react-google-recaptcha';
+import React, {useRef} from 'react'
+import './Form.css
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Form = () => {
-  const Submit = () => {
-    alert('Thanks! Your message was sent');
-  };
-  return (
+     const captcha = useRef(null);
+
+     const onChange = () => {
+      if(captcha.current.getValue()){
+        console.log('El usuario no es un robot');
+      }
+    }
+  
+    return (
+
     <div className='form'>
       <form onSubmit={Submit}>
         <label>Name</label>
@@ -15,10 +21,18 @@ const Form = () => {
         <input type='email'></input>
         <label>Title</label>
         <input type='text'></input>
-        <label>Message</label>
-        <textarea rows='6' placeholder='Please write your message'/>
-        <ReCAPTCHA sitekey="6LerYzEmAAAAABtgwrulyJ1utn3f-2dumT07wcgk" />
-        <button className='btn' type='submit'>Submit</button>
+
+        <label>Mensaje</label>
+        <textarea rows='6' placeholder='Escribe aquí tu mensaje'/>
+        <div className="recaptcha">
+          <ReCAPTCHA
+            ref={captcha}
+            sitekey="6LcHSjEmAAAAADpYYDwgZFzzNw5nBlrt5VfXFiVc"
+            onChange={onChange}
+          />
+        </div>
+        <button className='btn'>Enviar</button>
+
       </form>
 
     </div>
