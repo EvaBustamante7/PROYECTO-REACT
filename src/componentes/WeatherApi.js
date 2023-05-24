@@ -48,7 +48,7 @@ function WeatherApi() {
         <div className="feels">
           {data.main ? <p className='bold'>{data.main.feels_like.toFixed()}°C</p> : null}
           <p>Feels like</p>
-        <div class="humidity">
+        <div className="humidity">
           {data.main ? <p className='bold'>{data.main.humidity.toFixed()}%</p> : null}
           <p>Humidity</p>
         </div>
