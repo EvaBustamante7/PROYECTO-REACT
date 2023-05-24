@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div className={color ? 'header header-bg' : 'header'}>
-         <img id='logo' src={Logo} alt="Logo de Climatium" />
+         <Link to='/'><img id='logo' src={Logo} alt="Logo de Climatium" /></Link>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li>
                 <Link to='/'>Home</Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
                 <Link to='/weather'>Weather</Link>
             </li>
             <li>
-                <Link to='/gifs'>Gifs</Link>
+                <Link to='/solarsystem'>Solar System</Link>
             </li>
             <li>
                 <Link to='/planets'>Planets</Link>
