@@ -6,6 +6,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Instaladores necesarios para abrir este proyecto
+
+npm i react-icons --save
+
+npm i react-router-dom@v6
+
+npm install axios (biblioteca axios, que es comúnmente utilizada en aplicaciones React para realizar peticiones a APIs)
+
+npm install react-google-recaptcha
+
+npm i react-bootstrap
+
+npm install captcha
+
 ## Available Scripts
 
 In the project directory, you can run:
