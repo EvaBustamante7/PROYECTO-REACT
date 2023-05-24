@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.gamma.app/62fhnvjn90wi86b/27726d461b5c463992036ab637d8a21e/original/Captura-de-pantalla-2023-05-24-193510.png" alt="pokeball" width="600px" height='250px'>
+  <img src="https://cdn.gamma.app/62fhnvjn90wi86b/27726d461b5c463992036ab637d8a21e/original/Captura-de-pantalla-2023-05-24-193510.png" alt="pokeball" width="900px" height='400px'>
 </p>
 
 # Getting Started with Create React App
