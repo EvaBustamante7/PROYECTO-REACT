@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
+import Logo from '../img/logo.png'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -20,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div className={color ? 'header header-bg' : 'header'}>
-        <Link to='/'><h1>Climatium</h1></Link>
+         <img id='logo' src={Logo} alt="Logo de Climatium" />
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li>
                 <Link to='/'>Home</Link>

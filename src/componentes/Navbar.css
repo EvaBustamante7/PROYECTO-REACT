@@ -8,6 +8,11 @@
     padding: 1rem;
     z-index: 10;
 }
+
+#logo {
+    margin-top: 70px;
+   
+}
 /*Efecto navbar*/
 .header-bg {
     background-color: rgba(0,0,0, .85);
