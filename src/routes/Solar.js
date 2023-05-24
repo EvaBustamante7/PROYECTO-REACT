@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../componentes/Navbar'
-import Footer from '../componentes/Footer'
+import SolarSystem from '../solar/Scripts'
 
-const Gifs = () => {
+const Solar = () => {
   return (
     <div>
         <Navbar />
-        <Footer />
+        <SolarSystem />
     </div>
   )
 }
 
-export default Gifs
+export default Solar
