@@ -24,7 +24,7 @@ npm install captcha
 Hemos generado dos test en React, para los componentes Video y Footer. Ambos pasan correctamente
 
 <p align="center">
-  <img src="https://cdn.gamma.app/62fhnvjn90wi86b/84320d6a7f8743a2ab4b2efb9b5233e0/original/Captura-de-pantalla-2023-05-25-125904.png" alt="pokeball" width="300px" height='300px'>
+  <img src="https://cdn.gamma.app/62fhnvjn90wi86b/84320d6a7f8743a2ab4b2efb9b5233e0/original/Captura-de-pantalla-2023-05-25-125904.png" alt="pokeball" width="500px" height='300px'>
 </p>
 
 ## Available Scripts
