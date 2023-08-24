@@ -17,7 +17,6 @@ function Api() {
     ],
   };
   
-  
   return (
     <div className="api-container">
       <>
